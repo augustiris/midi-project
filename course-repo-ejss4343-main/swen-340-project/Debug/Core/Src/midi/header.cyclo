@@ -1,0 +1,5 @@
+../Core/Src/midi/header.c:18:9:getHeader	1
+../Core/Src/midi/header.c:30:10:getLength	1
+../Core/Src/midi/header.c:34:10:getFormat	1
+../Core/Src/midi/header.c:38:10:getTracks	1
+../Core/Src/midi/header.c:42:10:getDivision	1

@@ -1,0 +1,5 @@
+../Core/Src/util/messages.c:16:6:printMode	3
+../Core/Src/util/messages.c:32:6:printPrompt	1
+../Core/Src/util/messages.c:44:6:printInvalidCmd	1
+../Core/Src/util/messages.c:53:5:printMetaEvent	6
+../Core/Src/util/messages.c:83:6:printSong	1

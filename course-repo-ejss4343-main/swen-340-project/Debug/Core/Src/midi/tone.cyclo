@@ -1,0 +1,5 @@
+../Core/Src/midi/tone.c:36:10:hertz_to_duration	2
+../Core/Src/midi/tone.c:45:10:key_to_duration	1
+../Core/Src/midi/tone.c:51:9:add_tone	1
+../Core/Src/midi/tone.c:57:9:remove_tone	1
+../Core/Src/midi/tone.c:64:6:play_tones	2

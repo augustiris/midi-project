@@ -1,0 +1,5 @@
+../Core/Src/demos/remote.c:34:6:USART2_IRQHandler	1
+../Core/Src/demos/remote.c:44:7:getCmd	9
+../Core/Src/demos/remote.c:74:5:isPlay	1
+../Core/Src/demos/remote.c:78:5:isPause	1
+../Core/Src/demos/remote.c:82:5:isStop	1

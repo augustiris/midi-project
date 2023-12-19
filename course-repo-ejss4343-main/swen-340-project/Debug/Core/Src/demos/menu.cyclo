@@ -1,0 +1,14 @@
+../Core/Src/demos/menu.c:27:11:getMode	1
+../Core/Src/demos/menu.c:31:9:getCurrentSong	1
+../Core/Src/demos/menu.c:35:11:getLEDState	1
+../Core/Src/demos/menu.c:39:6:setLEDState	1
+../Core/Src/demos/menu.c:43:13:getMusicState	1
+../Core/Src/demos/menu.c:47:6:setMusicState	1
+../Core/Src/demos/menu.c:54:6:EXTI15_10_IRQHandler	3
+../Core/Src/demos/menu.c:67:6:togglePlayPause	2
+../Core/Src/demos/menu.c:80:6:play	5
+../Core/Src/demos/menu.c:108:6:stop	1
+../Core/Src/demos/menu.c:115:6:pause	2
+../Core/Src/demos/menu.c:123:6:next	2
+../Core/Src/demos/menu.c:129:6:start_menu	2
+../Core/Src/demos/menu.c:139:6:run_menu	5

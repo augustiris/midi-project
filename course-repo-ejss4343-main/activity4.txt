@@ -1,0 +1,105 @@
+1) unsigned char q1 = 73;
+   Convert q1 to a binary number (show all steps)
+      
+      a) 73 % 2 = 1
+      b) 36 % 2 = 0
+      c) 18 % 2 = 0
+      d) 9 % 2 = 1
+      e) 4 % 2 = 0
+      f) 2 % 2 = 0
+      d) 1 % 2 = 1
+      q1 = 0b01001001
+
+   Convert q1 to a hexidecimal number (show all steps)
+      
+      a) q1 = 0b01001001
+      b) 0100 1001
+      c) 4 9
+      q1 = 0x49
+
+2) signed char q2 = -5;
+   Convert q2 to a binary number (show all steps)
+         
+      a) 5 % 2 = 1
+      b) 2 % 2 = 0
+      c) 1 % 2 = 1
+      d) 0b00000101 = 5
+      e) 11111010 + 00000001 = 11111011
+      q2 = 0b11111011
+
+   Convert q2 to a hexidecimal nubmer (show all steps)
+      
+      a) q2 = 0b11111011
+      b) 1111 1011
+      c) F B
+      q2 = 0xFB
+
+3) unsigned char q3 = 0b11010110;
+   Convert q3 to a hexadecimal number (show all steps)
+
+      a) 0b11010110
+      b) 1101 0110
+      c) D 6
+      q3 = 0xD6
+
+   Convert q3 to a decimal number (show all steps)
+
+      a) 1X2^7 1X2^6 0X2^5 1X2^4 0X2^3 1X2^2 1X2^1 0X2^0
+      b) = 1(128) + 1(64) + 1(32) + 1(16) + 0(8) + 1(4) + 1(2) + 0(1)
+      q3 = 214
+
+4) Given: unsinged char a = 26;
+	  unsinged char b = 55;
+	  char c = 0;
+   What would the value of c be (in binary) after completeing each of the 
+   following operations (show all steps in binary):
+
+      i) 26 % 2 = 0
+         13 % 2 = 1
+         6 % 2 = 0
+         3 % 2 = 1
+         1 % 2 = 1
+         a = 0b00011010
+      ii) 55 % 2 = 1
+         27 % 2 = 1
+         13 % 2 = 1
+         6 % 2 = 0
+         3 % 2 = 1
+         1 % 2 = 1
+         b = 0b00110111
+
+   a) c = a & b;
+      i) a = 0b00011010
+      ii) b = 0b00110111
+      iii) a & b = 0b00010010
+
+   b) c = a | b;
+      i) a = 0b00011010
+      ii) b = 0b00110111
+      iii) a | b = 0b00111111
+      
+   c) c = a ^ b;
+      i) a = 0b00011010
+      ii) b = 0b00110111
+      iii) a ^ b = 0b00101101
+      
+   d) c = ~a;
+      i) a = 0b00011010
+      ii) ~a = 0b11100101
+      
+   e) c = a << 2;
+      i) a = 0b00011010
+      ii) a << 2 =  0b01101000
+
+   f) c = a >> 2;
+      i) a = 0b00011010
+      ii) a >> 2 = 0b00000110
+
+5) Using only the value variable and any combination of &,|,~,<<, and >>, 
+   Write a function that would return a 1 if the leftmost (MSB) bit of value 
+   is set and a 0 if it is not set. This should be only 2-3 lines of code.
+   
+   unint8_t msb_set (unint8_t value) {
+      return value >> 7;
+   }  
+   

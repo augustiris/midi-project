@@ -1,0 +1,102 @@
+For the message:
+   0x00 0x80 0x40 0x00
+the expected responses would be
+    Channel: 0
+    Type: Note Off Event
+        Key: E (64)
+        Velocity: 0
+    Delay: 0
+
+    0000 0000 [Channel]
+    1000 [Note Off Event]
+        0000 0100 [Key Number]
+        0000 0000 [Velocity]
+    0000  [Delay]
+
+Given the following MIDI messages:
+
+   0x3B 0x80 0x27 0x00
+   0x83 0x18 0x91 0x54 0x64
+   0xC5 0x92 0x74 0xE3 0x74 0x12
+   0x90 0x82 0x93 0x64 0xD3 0x89
+
+What is the message:
+    Delay
+    Message Type
+    Channel
+    Values (determined by message type - include the value(s) name)
+
+1) 0x3B 0x80 0x27 0x00
+    Delay: 0
+    Message Type: Control Change
+    Channel: 3
+    Values: 
+        Controller Number: 128
+        New Value: 39
+
+    0011 [Channel]
+    1011 [Control Change]
+        1000 0000 [Controller Number]
+        0010 0111 [New Value]
+    0000 0000 [Delay]
+
+2) 0x83 0x18 0x91 0x54 0x64
+    Type: Note Off Event
+        Key: C# (49)
+        Velocity: 137
+    Channel: 4
+    Delay: 21
+
+    1000 [Note Off Event]
+        0011 0001 [Key Number]
+        1000 1001 [Velocity]
+    0001 0101 [Delay]
+    0100 0110 [Sound Controller 1 (Sound Variation)]
+    0100 [Channel]
+
+3) 0xC5 0x92 0x74 0xE3 0x74 0x12
+    Delay: 628
+    Channel: 2
+    Message Type: Program Change
+    Values: 
+        New Program Number: 89
+    Message Type: Pitch Wheel Change
+        Value: 16,695
+
+    1100 [Program Change]
+        0101 1001 [New Program Number]
+        0010 0111 0100 [Delay]
+        1110 [Pitch Wheel Change]
+            0011 0111
+            0100 0001
+        0010 [Channel]
+
+4) 0x90 0x82 0x93 0x64 0xD3 0x89
+    Type: Note On Event
+        Key: G# (8)
+        Velocity: 41
+    Channel: 3
+    Delay: 100
+    Type: Channel Pressure
+        Pressure Value: 56
+
+    1001 [Note On Event]
+        0000 1000 [Key Number]
+        0010 1001 [Velocity]
+    0011 [Channel]
+    0110 0100 [Delay]
+    1101 [Channel Pressure]
+        0011 1000 [Pressure Value]
+    1001 [Note On Event]
+
+1000 0000
+8       0
+80 (implies we have more data)
+
+0xC5 0x92 0x74 0xE3 0x74 0x12
+
+0x45 << 14 + 0x12 << 7 + 0x74
+
+Pitch Wheel
+Channel 3
+Value 0x12 << 7 + 0x74 (Delay value)

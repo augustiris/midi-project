@@ -1,0 +1,6 @@
+../Core/Src/util/debounce.c:28:14:getS1LastTimeUp	1
+../Core/Src/util/debounce.c:35:14:getS1LastTimeDown	1
+../Core/Src/util/debounce.c:42:14:isUpS1	1
+../Core/Src/util/debounce.c:49:14:isUpB1	1
+../Core/Src/util/debounce.c:57:9:handleBtn	5
+../Core/Src/util/debounce.c:78:9:filterInterrupt	3

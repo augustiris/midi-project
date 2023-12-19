@@ -1,0 +1,9 @@
+If you were doing this project all on your own what would your next step be?
+
+I would read the manual for the board. I'm not sure how we're supposed to create sound
+much less music.
+
+I would look up how to turn on and an LED on the board. I would research where to put the
+light and look in the repo and code provided to see if I could tie together what the board
+does and what the repo code does.
+

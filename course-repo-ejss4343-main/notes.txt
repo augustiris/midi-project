@@ -1,0 +1,36 @@
+Time:19736
+Duration:9345
+Power:108
+Type:0
+
+
+
+Time:22203
+Duration:10000
+Power:105
+Type:1
+
+0x57 = 87
+0x58 = 88
+0xFF = 255
+0x56 = 88
+0x4D = 77
+0x54 = 84
+0x68 = 104
+0x80 = 128
+0x81 = 51
+
+start:84
+104 : 0
+end:84
+
+start:0
+16259 : 1
+end:255
+
+Meta 0 : 88
+event-len:4
+30 : 7
+
+RESULTS:
+

@@ -1,0 +1,2 @@
+../Core/Src/demos/manual.c:26:6:EXTI9_5_IRQHandler	7
+../Core/Src/demos/manual.c:67:6:manualPause	5

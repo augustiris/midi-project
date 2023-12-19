@@ -1,0 +1,14 @@
+../Core/Src/util/parser.c:25:5:getMaxNotes	1
+../Core/Src/util/parser.c:29:11:getTiming	1
+../Core/Src/util/parser.c:33:12:getSongInfo	1
+../Core/Src/util/parser.c:37:6:getNoteOnEvent	1
+../Core/Src/util/parser.c:41:5:getNumNotes	1
+../Core/Src/util/parser.c:48:6:song_init	2
+../Core/Src/util/parser.c:60:6:printParsedInfo	2
+../Core/Src/util/parser.c:81:6:parseSong	4
+../Core/Src/util/parser.c:132:18:parse_var_len	2
+../Core/Src/util/parser.c:149:5:filterMidiEvent	9
+../Core/Src/util/parser.c:201:5:skipMetaEvent	1
+../Core/Src/util/parser.c:210:5:skipThreeByteEvent	1
+../Core/Src/util/parser.c:214:5:skipTwoByteEvent	1
+../Core/Src/util/parser.c:221:10:getTempo	4

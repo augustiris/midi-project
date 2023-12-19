@@ -1,0 +1,4 @@
+../Core/Src/devices/LED.c:8:6:LED_Init	1
+../Core/Src/devices/LED.c:32:6:LED_On	1
+../Core/Src/devices/LED.c:39:6:LED_Off	1
+../Core/Src/devices/LED.c:46:6:LED_Toggle	1

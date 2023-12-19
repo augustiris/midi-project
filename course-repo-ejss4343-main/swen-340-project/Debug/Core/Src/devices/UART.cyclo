@@ -1,0 +1,12 @@
+../Drivers/CMSIS/Include/core_cm4.h:1679:22:__NVIC_EnableIRQ	2
+../Core/Src/devices/UART.c:15:6:UART2_Init	1
+../Core/Src/devices/UART.c:35:6:UART2_GPIO_Init	1
+../Core/Src/devices/UART.c:59:6:USART_Init	5
+../Core/Src/devices/UART.c:110:9:USART_Read	2
+../Core/Src/devices/UART.c:118:9:USART_Read_Nonblocking	2
+../Core/Src/devices/UART.c:124:9:USART2_Read	1
+../Core/Src/devices/UART.c:128:6:USART_Write	4
+../Core/Src/devices/UART.c:144:6:USART_Delay	2
+../Core/Src/devices/UART.c:149:6:USART_IRQHandler	8
+../Core/Src/devices/UART.c:175:7:readline	6
+../Core/Src/devices/UART.c:203:6:clearBuffer	2
